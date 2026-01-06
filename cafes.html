@@ -1,72 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cafes in Hyderabad</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hyderabad Cafes</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Hyderabad Cafes</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="cafes.html">Cafes List</a>
+    </nav>
+  </header>
 
-<header>
-    <h1>☕ Cafes List</h1>
-</header>
-
-<nav>
-    <a href="index.html">Home</a>
-    <a href="cafes.html">Cafes</a>
-</nav>
-
-<div class="container">
-
-    <input type="text" id="searchInput" placeholder="Search cafes..." onkeyup="searchCafes()">
-
+  <main>
     <div id="cafesList">
 
-        <div class="cafe">
-            <h3>Roastery Coffee House</h3>
-            <p>Banjara Hills</p>
-        </div>
+      <div class="cafe">
+        <h3>Roastery Coffee House</h3>
+        <p><a href="https://goo.gl/maps/qV6AXEYZH2HsVdXM9" target="_blank" rel="noopener noreferrer">
+          7-1-25/1, Road No. 10, Banjara Hills, Hyderabad, Telangana
+        </a></p>
+      </div>
 
-        <div class="cafe">
-            <h3>Conçu</h3>
-            <p>Jubilee Hills</p>
-        </div>
+      <div class="cafe">
+        <h3>Conçu</h3>
+        <p><a href="https://goo.gl/maps/qNwXPjKRjKyXG2sz9" target="_blank" rel="noopener noreferrer">
+          1-8-303, Road No. 36, Jubilee Hills, Hyderabad, Telangana
+        </a></p>
+      </div>
 
-        <div class="cafe">
-            <h3>Autumn Leaf Café</h3>
-            <p>Jubilee Hills</p>
-        </div>
+      <div class="cafe">
+        <h3>Autumn Leaf Café</h3>
+        <p><a href="https://goo.gl/maps/dVZdQMDJke4rYqVD6" target="_blank" rel="noopener noreferrer">
+          6-3-347/1, Jubilee Hills Rd, Jubilee Hills, Hyderabad
+        </a></p>
+      </div>
 
-        <div class="cafe">
-            <h3>Café Niloufer</h3>
-            <p>Lakdikapul</p>
-        </div>
+      <div class="cafe">
+        <h3>Café Niloufer</h3>
+        <p><a href="https://goo.gl/maps/pgxB8qw6X6zR5o7J9" target="_blank" rel="noopener noreferrer">
+          Sultan Bazar Rd, Lakdikapul, Hyderabad
+        </a></p>
+      </div>
 
-        <div class="cafe">
-            <h3>True Black Coffee</h3>
-            <p>Film Nagar</p>
-        </div>
+      <div class="cafe">
+        <h3>True Black Coffee</h3>
+        <p><a href="https://goo.gl/maps/5YZbcXzRrUuozjTz5" target="_blank" rel="noopener noreferrer">
+          Hitech City Rd, Film Nagar, Hyderabad
+        </a></p>
+      </div>
+
+      <div class="cafe">
+        <h3>The Coffee Cup</h3>
+        <p><a href="https://goo.gl/maps/3yu3R9gjRFHmxewb9" target="_blank" rel="noopener noreferrer">
+          Survey No. 64, Hitech City Rd, Hyderabad
+        </a></p>
+      </div>
+
+      <div class="cafe">
+        <h3>Just Brew</h3>
+        <p><a href="https://goo.gl/maps/9TfQEXzKn4JysBRR6" target="_blank" rel="noopener noreferrer">
+          Gachibowli Main Rd, Hyderabad
+        </a></p>
+      </div>
+
+      <div class="cafe">
+        <h3>Choco Loco Café</h3>
+        <p><a href="https://goo.gl/maps/6ctVXXv9aBybghx47" target="_blank" rel="noopener noreferrer">
+          Kukatpally Housing Board Colony, Kukatpally, Hyderabad
+        </a></p>
+      </div>
 
     </div>
 
-    <h2>📍 Cafe Locations</h2>
-
-    <!-- Google Maps Embed -->
-    <iframe 
+    <!-- Google Maps embed -->
+    <div class="map-container" style="margin-top: 30px;">
+      <iframe 
         src="https://www.google.com/maps/search/cafes+in+hyderabad/@17.385044,78.486671,13z"
         width="100%" 
         height="300" 
         style="border:0;" 
-        loading="lazy">
-    </iframe>
-
-</div>
-
-<footer>
-    <p>© 2026 Hyderabad Cafes</p>
-</footer>
-
-<script src="script.js"></script>
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </main>
 </body>
 </html>
+
