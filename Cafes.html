@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafes in Hyderabad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>☕ Cafes List</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cafes.html">Cafes</a>
+</nav>
+
+<div class="container">
+
+    <input type="text" id="searchInput" placeholder="Search cafes..." onkeyup="searchCafes()">
+
+    <div id="cafesList">
+
+        <div class="cafe">
+            <h3>Roastery Coffee House</h3>
+            <p>Banjara Hills</p>
+        </div>
+
+        <div class="cafe">
+            <h3>Conçu</h3>
+            <p>Jubilee Hills</p>
+        </div>
+
+        <div class="cafe">
+            <h3>Autumn Leaf Café</h3>
+            <p>Jubilee Hills</p>
+        </div>
+
+        <div class="cafe">
+            <h3>Café Niloufer</h3>
+            <p>Lakdikapul</p>
+        </div>
+
+        <div class="cafe">
+            <h3>True Black Coffee</h3>
+            <p>Film Nagar</p>
+        </div>
+
+    </div>
+
+    <h2>📍 Cafe Locations</h2>
+
+    <!-- Google Maps Embed -->
+    <iframe 
+        src="https://www.google.com/maps/search/cafes+in+hyderabad/@17.385044,78.486671,13z"
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        loading="lazy">
+    </iframe>
+
+</div>
+
+<footer>
+    <p>© 2026 Hyderabad Cafes</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
